@@ -1,5 +1,6 @@
 import BasicFormOne from "../components/BasicFormOne";
 import BasicFormTwo from "../components/BasicFormTwo";
+import SignInForm from "../components/SignInForm";
 
 export const dropDownOptions = [
   { value: "option1", label: "Mazerati" },
@@ -13,6 +14,8 @@ const MyAppForm = () => {
       <BasicFormOne />
       <hr />
       <BasicFormTwo dropDownOptions={dropDownOptions} />
+      <hr />
+      <SignInForm />
       <hr />
     </>
   );
